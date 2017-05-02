@@ -1,3 +1,6 @@
+all:
+	download start
+
 download:
 	git clone https://github.com/puzzledqs/BBox-Label-Tool
 	wget https://bootstrap.pypa.io/get-pip.py
@@ -8,4 +11,6 @@ download:
 	pip install Image
 	pip install Pillow
 	pip install PIL
+
+start:
 	python ./BBox-Label-Tool/main.py
