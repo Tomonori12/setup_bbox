@@ -10,4 +10,4 @@ download:
 	pip install Image
 
 start:
-	python ./BBox-Label-Tool/main.py
+	cd BBox-Label-Tool; python main.py
