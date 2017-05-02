@@ -9,8 +9,5 @@ download:
 	sudo apt-get install python-imaging-tk
 	pip install Image
 
-#pip install Pillow
-#pip install PIL
-
 start:
 	python ./BBox-Label-Tool/main.py
