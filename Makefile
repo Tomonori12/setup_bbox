@@ -1,5 +1,4 @@
-all:
-	download start
+all:	download start
 
 download:
 	git clone https://github.com/puzzledqs/BBox-Label-Tool
