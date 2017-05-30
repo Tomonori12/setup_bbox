@@ -7,4 +7,4 @@ download:
 	sudo apt-get install python-imaging-tk
 
 start:
-	cd BBox-Label-Tool; python main.py
+	cd BBox-Label-Tool; python2 main.py
